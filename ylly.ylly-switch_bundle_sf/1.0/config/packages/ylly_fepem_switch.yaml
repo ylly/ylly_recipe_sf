@@ -1,0 +1,6 @@
+ylly_fepem_switch:
+  base_url: '%env(YLLY_FEPEM_SWITCH_BASE_URL)%'
+  entity_path: '%env(YLLY_FEPEM_SWITCH_ENTITY_PATH)%'
+  public_key: '%env(YLLY_FEPEM_SWITCH_PUBLIC_KEY)%'
+  username: '%env(YLLY_FEPEM_SWITCH_USERNAME)%'
+  password: '%env(YLLY_FEPEM_SWITCH_PASSWORD)%'
