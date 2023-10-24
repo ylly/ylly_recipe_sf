@@ -23,7 +23,8 @@
             "    entity_path: 'App\\Entity\\User'",
             "    base_url: '%env(YLLY_FEPEM_SWITCH_BASE_URL)%'",
             "    username: '%env(YLLY_FEPEM_SWITCH_USERNAME)%'",
-            "    password: '%env(YLLY_FEPEM_SWITCH_PASSWORD)%'"
+            "    password: '%env(YLLY_FEPEM_SWITCH_PASSWORD)%'",
+            ""
           ],
           "executable": false
         }
