@@ -18,9 +18,9 @@
         }
       },
       "files": {
-        "config/packages/ylly_fepem_switch.yaml": {
+        "config/packages/fepem_switch.yaml": {
           "contents": [
-            "ylly_fepem_switch:",
+            "fepem_switch:",
             "    base_url: '%env(YLLY_FEPEM_SWITCH_BASE_URL)%'",
             "    entity_path: '%env(YLLY_FEPEM_SWITCH_ENTITY_PATH)%'",
             "    public_key: '%env(YLLY_FEPEM_SWITCH_PUBLIC_KEY)%'",
