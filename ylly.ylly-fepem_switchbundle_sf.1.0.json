@@ -1,0 +1,36 @@
+{
+  "manifests": {
+    "ylly/ylly-fepem_switchbundle_sf": {
+      "manifest": {
+        "bundles": {
+          "Ylly\\FepemSwitchBundle\\FepemSwitchBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "env": {
+          "YLLY_FEPEM_SWITCH_BASE_URL": "",
+          "YLLY_FEPEM_SWITCH_PUBLIC_KEY": "",
+          "YLLY_FEPEM_SWITCH_USERNAME": "",
+          "YLLY_FEPEM_SWITCH_PASSWORD": ""
+        }
+      },
+      "files": {
+        "config/packages/ylly_fepem_switch.yaml": {
+          "contents": [
+            "ylly_fepem_switch:",
+            "    base_url: '%env(YLLY_FEPEM_SWITCH_BASE_URL)%'",
+            "    entity_path: '%env(YLLY_FEPEM_SWITCH_ENTITY_PATH)%'",
+            "    public_key: '%env(YLLY_FEPEM_SWITCH_PUBLIC_KEY)%'",
+            "    username: '%env(YLLY_FEPEM_SWITCH_USERNAME)%'",
+            "    password: '%env(YLLY_FEPEM_SWITCH_PASSWORD)%'"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "c7b1a155b60c553d2c6e272d210e8614c89a7e5c"
+    }
+  }
+}

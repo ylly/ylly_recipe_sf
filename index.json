@@ -9,6 +9,6 @@
   "_links": {
     "repository": "github.com/ylly/ylly_recipe_sf",
     "origin_template": "{package}:{version}@github.com/ylly/ylly_recipe_sf:main",
-    "recipe_template": "https://api.github.com/repos/ylly/ylly_recipe_sf/contents/{package_dotted}/{version}/manifest.json"
+    "recipe_template": "https://raw.githubusercontent.com/ylly/ylly_recipe_sf/main/{package_dotted}.{version}.json"
   }
 }
