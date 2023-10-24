@@ -12,7 +12,6 @@
         },
         "env": {
           "YLLY_FEPEM_SWITCH_BASE_URL": "",
-          "YLLY_FEPEM_SWITCH_PUBLIC_KEY": "",
           "YLLY_FEPEM_SWITCH_USERNAME": "",
           "YLLY_FEPEM_SWITCH_PASSWORD": ""
         }
@@ -22,8 +21,7 @@
           "contents": [
             "fepem_switch:",
             "    base_url: '%env(YLLY_FEPEM_SWITCH_BASE_URL)%'",
-            "    entity_path: '%env(YLLY_FEPEM_SWITCH_ENTITY_PATH)%'",
-            "    public_key: '%env(YLLY_FEPEM_SWITCH_PUBLIC_KEY)%'",
+            "    entity_path: 'App\\Entity\\User",
             "    username: '%env(YLLY_FEPEM_SWITCH_USERNAME)%'",
             "    password: '%env(YLLY_FEPEM_SWITCH_PASSWORD)%'"
           ],
