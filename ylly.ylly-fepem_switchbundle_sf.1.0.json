@@ -27,9 +27,18 @@
             ""
           ],
           "executable": false
+        },
+        "config/routes/fepem_switch.yaml": {
+          "contents": [
+            "fepem_switch:",
+            "    resource: ../../vendor/ylly/ylly-fepem_switchbundle_sf/src/Controller/",
+            "    type: attribute",
+            ""
+          ],
+          "executable": false
         }
       },
-      "ref": "c7b1a155b60c553d2c6e272d210e8614c89a7e5c"
+      "ref": "e279746ae904747b6b9bd6111b3a9dc04e5a52de"
     }
   }
 }
