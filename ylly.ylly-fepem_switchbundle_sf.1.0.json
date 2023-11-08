@@ -13,7 +13,8 @@
         "env": {
           "YLLY_FEPEM_SWITCH_BASE_URL": "",
           "YLLY_FEPEM_SWITCH_USERNAME": "",
-          "YLLY_FEPEM_SWITCH_PASSWORD": ""
+          "YLLY_FEPEM_SWITCH_PASSWORD": "",
+          "YLLY_FEPEM_SWITCH_USE_MOCKS": false
         }
       },
       "files": {
@@ -24,6 +25,7 @@
             "    base_url: '%env(YLLY_FEPEM_SWITCH_BASE_URL)%'",
             "    username: '%env(YLLY_FEPEM_SWITCH_USERNAME)%'",
             "    password: '%env(YLLY_FEPEM_SWITCH_PASSWORD)%'",
+            "    use_api_mocks: '%env(YLLY_FEPEM_SWITCH_USE_MOCKS)%'",
             ""
           ],
           "executable": false
@@ -38,7 +40,7 @@
           "executable": false
         }
       },
-      "ref": "e279746ae904747b6b9bd6111b3a9dc04e5a52de"
+      "ref": "68f052e2662eadc2d6483f2ae834499002e00eb0"
     }
   }
 }
