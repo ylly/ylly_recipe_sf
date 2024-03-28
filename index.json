@@ -2,6 +2,9 @@
   "recipes": {
     "ylly/ylly-fepem_switchbundle_sf": [
       "1.0"
+    ],
+    "ylly/ylly-fepem_switchbundle_sf": [
+      "2.0"
     ]
   },
   "branch": "main",
